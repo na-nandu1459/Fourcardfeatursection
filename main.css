@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+:root{
+--red: hsl(0, 78%, 62%);
+--cyan: hsl(180, 62%, 55%);
+--orange: hsl(34, 97%, 64%);
+--blue: hsl(212, 86%, 64%);
+--very-dark-blue: hsl(234, 12%, 34%);
+--grayish-blue: hsl(229, 6%, 66%);
+--very-light-gray: hsl(0, 0%, 98%);
+--white:#fff;
+--font-family:'Poppins', sans-serif;
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+/* body */
+.font-sans{
+    font-family: var(--font-family);
+}
+.text-sm{
+    font-size: 15px;
+}
+.bg-gray-100{
+    background-color: var(--very-light-gray);
+}
+.min-h-screen{
+    min-height: 100vh;
+}
+.padding{
+    padding-top: 60px;
+}
+/* main */
+.ml-0{
+margin-left: auto;
+}
+.mr-0{
+margin-right: auto;
+}
+.max-w-full{
+    max-width: 1440px;
+}
+/* heading */
+.text-center{
+    text-align: center;
+}
+.text-4xl{
+    font-size: 2.5em;
+}
+.font-thin{
+    font-weight: 200;
+}
+.text-blue{
+    color: var(--very-dark-blue);
+}
+/* span */
+.block{
+    display: block;
+}
+.font-semibold{
+    font-weight: 600;
+}
+
+/* paragraph */
+.max-w-2xl{
+    max-width: calc(1440/2);
+}
+.text-gray{
+    color: var(--grayish-blue);
+}
+/* section */
+article:nth-child(odd){
+    transform: translateY(50%);
+}
+/* article:nth-child(3){
+    transform: translateY(50%);
+} */
+.text-2xl{
+    font-size: 16px;
+}
+/* cards */
+.w-25{
+width: 25%;
+}
+.bg-white{
+    background-color: var(--white);
+}
+.relative{
+position: relative;
+}
+.h-3{
+    height: 250px;
+}
+.text-left{
+text-align: left;
+}
+.p-4{
+    padding: 15px;
+}
+.pr-3{
+    padding-right: 30px;
+}
+.bt-5{
+    border-top: 5px solid var(--red);
+}
+
+.bt-6{
+    border-top: 5px solid var(--cyan); 
+}
+.bt-7{
+    border-top: 5px solid var(--blue);
+}
+.bt-8{
+    border-top: 5px solid var(--orange);
+}
+.rounded-md{
+    border-radius: 5px;
+}
+.shadow-lg{
+    box-shadow: 0px 7px 15px var(--grayish-blue);
+} 
+.inline-block{
+    display: inline-block;
+}
+.m-15{
+    margin: 15px;
+}
+/* heading in article */
+.text-blue{
+color: var(--very-dark-blue);
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+/* image */
+.absolute{
+    position: absolute;
+}
+.bottom-15{
+    bottom: 25px;
+}
+.right-15{
+    right: 25px;
+}
+
+/* media query */
+@media (max-width:768px){
+    article:nth-child(1){
+        transform: translateY(0%);
+    }
+    article:nth-child(3){
+        transform: translateY(0%);
+    }  
+    .sm-w-25{
+        width: 100%;
+        }
+        .sm-text-4xl{
+            font-size: 1.5rem;
+        }
+        .sm-inline{
+            display:inline;
+        }
+        .sm-padding{
+            padding: 20px;
+        }
+        .sm-m-0{
+            margin: 0px;
+        }
+        .sm-mb-3{
+            margin-bottom: 30px;
+        }
+        .sm-text-2xl{
+            font-size: 15px;
+        }
+        .sm-mt-3{
+            margin-top: 30px;
+        }
+}
+
+
+
+
+
+
+
+
+
